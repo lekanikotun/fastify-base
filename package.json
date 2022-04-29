@@ -1,16 +1,8 @@
 {
   "name": "fastify-base",
   "version": "1.0.0",
-  "description": "Lounge Buddy Platform team sample app",
+  "description": "Fastify base app",
   "main": "dist/index.js",
-  "author": "Lounge Buddy Platform Team <lounge-buddy-platform@aexp.com>",
-  "contributors": [
-    "Arthur Verkaik <Arthur.Verkaik@aexp.com>",
-    "Charles Cantrell <Charles.E.Cantrell@aexp.com>",
-    "Glenn Hinks <Glenn.V.Hinks@aexp.com>",
-    "Lekan Ikotun <Lekan.Ikotun@aexp.com>",
-    "Michael Koshakow <Michael.Koshakow@aexp.com>"
-  ],
   "scripts": {
     "build": "tsc",
     "start-dev": "TS_NODE_FILES=true ts-node-dev src/index.ts",
@@ -47,10 +39,5 @@
   },
   "dependencies": {
     "fastify": "^3.27.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LoungeBuddy/fastify-base.git"
-  },
-  "homepage": "https://github.com/LoungeBuddy/fastify-base#readme"
+  }
 }

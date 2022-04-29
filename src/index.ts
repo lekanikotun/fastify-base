@@ -1,10 +1,11 @@
+import { FastifyServerOptions } from "fastify";
 import app from "./app";
 
 const server = app({
   logger: {
     level: "info",
   },
-});
+} as FastifyServerOptions);
 
 const PORT = process.env.PORT ?? 3000;
 
